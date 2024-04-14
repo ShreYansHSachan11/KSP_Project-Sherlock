@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.analysisPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px 0;
+}
+
+.analysisPageSections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.analysisPage h3 {
+  color: black;
+  margin: 40px 0 0 0;
+}
+
+.dataBoxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 50vw;
+  height: 50vh;
+  /* background-color: grey; */
+  margin: 15px;
+  border: 2px solid grey;
+  padding: 10px;
+}
+
+
+.analysisPage-leftSection {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.anonymizedButtons {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  min-width: -webkit-fill-available;
+}
+
+.anonymizedDataField {
+  overflow: scroll;
+  height: 50vh;
+  text-align: justify;
+  font-size: 17px;
+  color: black;
+  scrollbar-width: none;
+}
+
+.analysisPage-rightSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.analysisPage .btn1 {
+  display: flex;
+  margin:10px 20px;
+  width: 230px;
+  height: 45px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: #00C9B8;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-analytics{
+  display: flex;
+  margin:14px 20px;
+  width: 160px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  /* background-color: #00C9B8; */
+  color: white;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+
+.originalDataField img {
+  width: 30vw;
+  /* height:50vh; */
+}
+
+.originalDataField {
+  word-wrap: break-word;
+  padding: 10px;
+}
+
+
+.anonymizedData img {
+  width: 300px;
+  height: 500px;
+}
+
+
+
+.entitiesList {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.entitiesScrollBar {
+  /* width: 25vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+  max-height: 500px;
+  border:1px solid black;
+  padding:15px;
+  border-radius: 5px;
+}
+
+.entityButton {
+  margin: 5px;
+  flex-wrap: wrap;
+  /* width: 261px; */
+  font-size: 16px;
+  height: 40px;
+  color: #fff;
+  background:
+    #393943;
+}
+
+.analysisPage-rightSection h6{
+  color: #393943;
+  margin:10px;
+}
+
+.entityButtonsContainer {
+  width: 40vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.entitiesHeader{
+  display: flex;
+  justify-content: flex-start;
+  width: -webkit-fill-available;
+}
+
+.entityButton.active {
+  background-color: #FCD200;
+  color: black;
+}
+
+
+
+.toggleButtons {
+  margin-top: 20px;
+}
+
+.toggleButton {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+}
+
+.toggleButton.active {
+  background-color: #00f;
+  color: #fff;
+}
+
+.highlighted {
+  background-color: rgba(153, 205, 50, 0.517);
+}
+
+select{
+        /* width: 398px; */
+        width: -webkit-fill-available;
+        background: white;
+        color: black;
+        margin: 10px 0;
+        font-family: "Montserrat", sans-serif;
+        border-radius: 5px;
+        padding: 3px;
+
+}
+
+.finalResult{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.finaltext{
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width:60vw;
+  height:60vh;
+  color: black;
+  font-size: 16px;
+  overflow-y: scroll;
+  text-align: justify;
+  scrollbar-width: none;
+  border: 1px solid black;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.finalResult-buttons{
+  width:60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

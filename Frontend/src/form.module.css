@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+section{
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Modalbtn {
+width: 150px;
+height: 35px;
+border: none;
+background-color: #4285f4;
+color: white;
+transition: 0.2s;
+border-radius: 3px;
+}
+
+.Modalbtn:hover {
+transition: 0.2s;
+border: none;
+cursor: pointer;
+background-color: #2e7cfa;
+}
+.forbg{
+
+  overflow-x: hidden;
+}
+.forbg::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  /* height: 175vh; */
+  background: url("../../assets/background/fff2.png");
+  background-size: cover;
+  /* filter: blur(2px); */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  overflow-x: hidden;
+  z-index: -1;
+}
+
+.head img{
+  margin-top: 40px;
+}
+.bgside{
+  /* height: 90vh; */
+  display: flex;
+  align-items: center;
+}
+.bgside img{
+  height: 600px;
+  width: 590px;
+}
+.page{
+  display: flex;
+  flex-direction: row;
+}
+.head{
+  text-align: center;
+  color: black;
+  margin: 0 0 40px;
+}
+.head h1{
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.buttonRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:400px;
+}
+
+.buttonRow button:hover{
+  background-color: rgb(41 102 100);
+}
+
+
+.css-16mbc6c {
+  text-align: center;
+}
+.css-1o5ydhf {
+  text-align: center;
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  /* width:95%; */
+  text-align: center;
+
+}
+.css-1ss2ei0-MuiContainer-root{
+  text-align: center;
+}
+.css-u4tvz2-MuiFormLabel-root{
+  text-align: left;
+}
+
+.css-qfz70r-MuiFormGroup-root{
+  justify-content: space-between;
+}
+
+.css-yf8vq0-MuiSelect-nativeInput {
+  position: relative;
+  text-align: left;
+}
+
+.css-u4tvz2-MuiFormLabel-root{
+  margin: 0 !important;
+}
+.head{
+  justify-content: center;
+}
+
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {
+  padding: 5px 8px;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 14px 23px;
+  text-align: left;
+}
+@media (min-width:1100px){
+  .forbg::before{
+      background-size: contain!important;
+  }
+}
+@media (max-width: 899px)
+{   
+  body{
+      overflow: scroll;
+  }
+  section{
+      overflow-x: hidden;
+  }
+
+
+  .css-sghohy-MuiButtonBase-root-MuiButton-root {
+      /* width:92%; */
+      text-align: center;
+   
+  }
+
+  .formContainer{
+  
+  margin-top: 150px;
+       
+  }
+
+  
+}
+
+@media (min-width:200px) and (max-width: 700px)
+{
+  .formSection{
+      flex-direction: column-reverse;
+  }
+
+  .forbg{
+      content: "";
+  background:url("../../assets/background/Android\ Large\ -\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  }
+
+
+  .bgside>img{
+      width: 20em;
+      height: auto;
+      padding: 0;
+      margin: 0;
+  }
+
+  .input{
+      width: 100%;
+      /* height: 20%; */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+  }
+}
+/* @media (min-width:900px){
+  .forbg{
+      height: 90.5vh;
+  }
+} */
+@media (max-width: 1400px){
+  .bgside img{
+      height: 530px;
+      width: 500px;
+  }
+}
+@media (max-width: 1170px){
+  .bgside img{
+      height: 480px;
+      width: 450px;
+  }
+}
+@media (max-width: 1120px){
+  .bgside img{
+      height: 420px;
+      width: 400px;
+  }
+}
+@media (max-width: 1060px){
+  .bgside img{
+      height: 320px;
+      width: 300px;
+  }
+}
+@media (max-width: 952px){
+  .bgside img{
+      height: 320px;
+      width: 300px;
+  }
+}
+
+
+.spinner_container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.486);
+  z-index: 999;
+}.spinner {
+  width: 56px;
+  height: 56px;
+  display: grid;
+  border: 4px solid #0000;
+  border-radius: 50%;
+  border-right-color: #192a56;
+  animation: spinner-a4dj62 1s infinite linear;
+ }
+ 
+ .spinner::before,
+ .spinner::after {
+  content: "";
+  grid-area: 1/1;
+  margin: 2px;
+  border: inherit;
+  border-radius: 50%;
+  animation: spinner-a4dj62 2s infinite;
+ }
+ 
+ .spinner::after {
+  margin: 8px;
+  animation-duration: 3s;
+ }
+ 
+ @keyframes spinner-a4dj62 {
+  100% {
+   transform: rotate(1turn);
+  }
+ }
+ @media (max-width: 400px){
+  .head h1{
+      font-size: 20px;
+  }
+}

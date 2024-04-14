@@ -1,0 +1,72 @@
+.Dropbox{
+    max-width: 950px;
+    margin: 90px auto;
+  }
+  
+  .Dropbox h1 {
+    font-size: 3rem;
+    margin: 4rem 0 0 0;
+  }
+  
+  .Dropbox p {
+    color: #1a1a11;
+    font-size: 1.5rem;
+  }
+  
+  .input-wrapper {
+    position: relative;
+  }
+  
+  .input-wrapper label {
+    display: inline-block;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #ce2540;
+    color: #fff;
+  }
+  
+  .input-wrapper input[type="file"] {
+    position: absolute;
+    left: 26px;
+    top: 6px;
+    z-index: -1;
+    font-size: 15px;
+    color: #1a1a11;
+  }
+  
+  .result {
+    margin-top: 4rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .result .box-image {
+    background: #ce2540;
+    height: 100%;
+    padding: 1rem;
+  }
+  
+  .result .box-p {
+    background: #ddd;
+    height: 100%;
+    padding: 1rem;
+  }
+  
+  .result img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .result p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+  
+  @media (min-width: 1000px) {
+    .result {
+      grid-template-columns: 1fr 1fr;
+    }
+  }

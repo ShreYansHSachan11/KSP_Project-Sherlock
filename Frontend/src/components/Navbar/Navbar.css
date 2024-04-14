@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #FFFFFF;
+    padding: 5px 0px 5px 5px;
+    font-size: 16px;
+    width: 100vw;
+    margin: 0;
+    position: fixed;
+    left:0;
+    top:0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+    z-index: 10;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+  }
+  
+  .navbar a:hover {
+    color: greenyellow;
+  }
+
+  .navbar-left{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navbar-left img{
+    margin-right:7px;
+  }
+
+  .navbar-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navbar-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:38%;
+  }
+
+  .navbar-left img{
+    width:40px;
+    height:40px;
+  }
+
+  .navbar-right img{
+    width:50px;
+    height:50px;
+  }
+  .navbar-left h2{
+    margin:0;
+    font-size: 34px;
+  }
+
+  .navbar-right button{
+    display: flex;
+    border-radius: 5px;
+    width:8rem;
+    height:2.5rem;
+    padding:10px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+
+  .navbar-right button img{
+   width:18px;
+   height:18px;
+   margin-right: 7px;
+   color: #FFFFFF;
+  }
+
+.signin{
+    background-color: #00C9B8;
+    color:#FFFFFF;
+}
+
+  .dropfile{
+    background-color: #ce2540;
+  }
+
+  .input-field{
+    text-align: center;
+    background-color: #E7F5F5;
+    color: black;
+    margin:0 20px;
+    border: none;
+    height:2.2rem;
+    width:300px;
+    border-radius: 5px;
+    background-image: url(../../assets/search.png);
+    background-repeat: no-repeat;
+    text-indent: 20px;
+    background-size: 7%;
+    background-position: 20%;
+    
+  }
+
+
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+  
+    .navbar a {
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
+  

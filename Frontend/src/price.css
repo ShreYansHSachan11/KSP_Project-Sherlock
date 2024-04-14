@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.homepage-container {
+    text-align: center;
+    margin-top: 31px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.homepage-container-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.homepage-container-content h3{
+  color: black;
+  margin:40px 0 0 0;
+}
+
+  .homepage-heading {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .input-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 70px; */
+  }
+  
+  .input-sections h6{
+    color: black;
+    font-weight: 200;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .input-section {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 430px;
+    width:400px;
+    border: 1px solid black;
+  }
+  
+  .input-label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  
+.loader{
+  color:red;
+}
+  
+  .image-upload {
+    padding: 10px;
+    font-size: 1rem;
+    
+    overflow-wrap: anywhere;
+    word-wrap: break-word;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+.proceedButton{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .btn1 {
+    display: block;
+    margin:20px 20px;
+    width: 230px;
+    height: 45px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #00C9B8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn1:disabled {
+    background-color: #57b0a8ad;
+    cursor: not-allowed;
+    width: 230px;
+    height: 45px;
+  }
+
+  textarea{
+    word-wrap: break-word;
+    word-break: break-all;
+    height: 450px;
+    width:400px;
+    background-color: #fff;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    scrollbar-width: none;
+}
+  
+.loaderContainer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+}
+  
