@@ -40,7 +40,6 @@ During the process of anonymizing personal identifiers in a crime dataset, our t
 Deployed Link :  https://sherlock-rose.vercel.app/dashboard
 Demo Video : https://youtu.be/ABdbvaoytDA
 
-# Custom NER and Anonymization System
 
 ## The Model
 
