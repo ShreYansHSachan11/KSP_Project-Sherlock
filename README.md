@@ -13,12 +13,14 @@ We’ve developed a tool for automated Personal Identifiable Information (PII) A
 - [License](#license)
 ## Installation
 
-Install my-project with npm
+Install my-project
 
 ```bash
   npm install my-project
   cd my-project
 ```
+
+- NOTE: Due to very large model size, in order to upload it on github we used git lfs. So it is recommended to use the deployed link given below over running it locally.
     
 ## Features
 1. PII Analyzer from Text & Image
@@ -37,8 +39,8 @@ During the process of anonymizing personal identifiers in a crime dataset, our t
 
 ## Demo
 
-Deployed Link :  https://sherlock-rose.vercel.app/dashboard
-Demo Video : https://youtu.be/ABdbvaoytDA
+-Deployed Link :  https://sherlock-rose.vercel.app/dashboard
+-Demo Video : https://youtu.be/ABdbvaoytDA
 
 
 ## The Model
