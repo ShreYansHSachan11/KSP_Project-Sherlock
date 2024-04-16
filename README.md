@@ -10,6 +10,7 @@ We’ve developed a tool for automated Personal Identifiable Information (PII) A
 - [Features](#Features)
 - [USP](#USP)
 - [Demo](#demo)
+- [The Model](#The_Model)
 - [License](#license)
 ## Installation
 
@@ -39,8 +40,8 @@ During the process of anonymizing personal identifiers in a crime dataset, our t
 
 ## Demo
 
--Deployed Link :  https://sherlock-rose.vercel.app/dashboard
--Demo Video : https://youtu.be/ABdbvaoytDA
+- Deployed Link :  https://sherlock-rose.vercel.app/dashboard
+- Demo Video : https://youtu.be/ABdbvaoytDA
 
 
 ## The Model
