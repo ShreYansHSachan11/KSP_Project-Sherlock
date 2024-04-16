@@ -90,9 +90,6 @@ Demo Video : https://youtu.be/ABdbvaoytDA
 
 - **De-anonymization Logic**: Deanonymization logic and code are implemented in `@app.post("/de-ano")` in `main.py`.
 
-## Usage
-
-Detailed usage instructions and API documentation can be found in the respective sections below.
 
 ## License
 
