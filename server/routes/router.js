@@ -13,16 +13,7 @@ cloudinary.config({
   api_secret: "hPd5b4MA8UToPXSpFgZ4BUAFYcc",
 });
 
-const storage = multer.diskStorage({
-  destination: function (req, file, cb) {
-    cb(null, "uploads/");
-  },
-  filename: function (req, file, cb) {
-    cb(null, file.originalname);
-  },
-});
 
-const upload = multer({ storage: storage });
 
 // Endpoint for storing files
 router.post(
